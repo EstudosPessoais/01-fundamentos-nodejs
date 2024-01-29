@@ -14,5 +14,7 @@ npm run dev
 ### Usuários
 | Endpoint | Resposta | Resumo |
 |----------|----------|--------|
-| ```GET /users```| ```200``` | Retorna uma lista de usuários |
-| ```POST /users```| ```201``` | Retorna body vazio e status 201.|
+| ```GET /users```| ```200``` | Retorna uma lista de usuários do bd. |
+| ```POST /users```| ```201``` | Cria um novo usuário no bd. |
+| ```PUT /users```| ```204``` | Atualiza um usuário da bd. |
+| ```DELETE /users```| ```204``` | Deleta um usuário da bd. |
